@@ -6,7 +6,7 @@ import time
 from requests.api import get
 import telebot
 from telebot.types import Chat, Message
-# import math
+
 
 
 
