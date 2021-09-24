@@ -27,7 +27,6 @@ get_index()
 
 class Index:
     def __init__(self):
-        # self.name = []
         self.value = []
         self.value_classification = []
         self.timestamp = []
