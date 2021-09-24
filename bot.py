@@ -34,7 +34,6 @@ class Index:
     #Assigning Values
     def store_values(self,data):
          for i in range (1):
-            # self.name.append(data['data'][i]['name'])
             self.value.append(data['data'][i]['value'])
             self.value_classification.append(data['data'][i]['value_classification'])
             self.timestamp.append(data['data'][i]['timestamp'])
