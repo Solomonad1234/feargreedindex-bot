@@ -8,8 +8,6 @@ import telebot
 from telebot.types import Chat, Message
 
 
-
-
 bot = telebot.TeleBot('API_KEY')
 
 def get_index():
@@ -105,11 +103,3 @@ def start_bot(message):
     '/update - Will inform you when The Fear and Greed Index values will change.')
 
 bot.polling()
-    
-
-
-
-
-
-    
-    
